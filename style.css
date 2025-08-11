@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'Jameel Noori Nastaleeq';
-    src: url('https://cdn.jsdelivr.net/gh/mehwishmadeha-sudo/jameel-noori-nastaleeq/Jameel-Noori-Nastaleeq-Regular.woff2') format('woff2'),
-         url('https://cdn.jsdelivr.net/gh/mehwishmadeha-sudo/jameel-noori-nastaleeq/Jameel-Noori-Nastaleeq-Regular.woff') format('woff');
+    src: url('https://raw.githubusercontent.com/mehwishmadeha-sudo/jameel-noori-nastaleeq/main/Jameel-Noori-Nastaleeq-Regular.woff2?v=20250811') format('woff2'),
+         url('https://raw.githubusercontent.com/mehwishmadeha-sudo/jameel-noori-nastaleeq/main/Jameel-Noori-Nastaleeq-Regular.woff?v=20250811') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -11,4 +11,8 @@ body {
     font-family: 'Jameel Noori Nastaleeq', serif;
     direction: rtl;
     line-height: 2.2;
+    background: #fdfaf6;
+    color: #222;
+    margin: 0;
+    padding: 20px;
 }
