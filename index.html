@@ -1,103 +1,82 @@
 <!DOCTYPE html>
 <html lang="ur" dir="rtl">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>جمیل نوری نستعلیق - ویب پر استعمال (GitHub)</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>نمونہ ایپ</title>
 
-    <!-- فونٹ شامل کرنا (GitHub Raw) -->
-    <link rel="stylesheet" href="style.css">
+  <!-- Load Urdu font -->
+  <link rel="stylesheet" href="jameel-noori-nastaleeq.css">
 
-    <style>
-        body {
-            background: #fdfaf6;
-            color: #222;
-            margin: 0;
-            padding: 0;
-            line-height: 2;
-        }
-        header {
-            text-align: center;
-            padding: 40px 20px 20px;
-            background: linear-gradient(to bottom, #fff, #f8f5f0);
-            border-bottom: 2px solid #eee;
-        }
-        h1 {
-            font-size: 2.8rem;
-            margin: 0;
-        }
-        p {
-            font-size: 1.2rem;
-            margin: 10px 0 0;
-        }
-        section {
-            max-width: 800px;
-            margin: 40px auto;
-            background: white;
-            padding: 25px;
-            border-radius: 12px;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
-        }
-        h2, h3 {
-            margin-top: 0;
-        }
-        pre {
-            background: #f3f3f3;
-            padding: 12px;
-            border-radius: 6px;
-            overflow-x: auto;
-            direction: ltr;
-            text-align: left;
-            font-size: 0.9rem;
-        }
-        code {
-            font-family: monospace;
-            background: #eee;
-            padding: 2px 4px;
-            border-radius: 4px;
-        }
-        footer {
-            text-align: center;
-            font-size: 0.9rem;
-            padding: 20px;
-            color: #777;
-            border-top: 1px solid #eee;
-            margin-top: 40px;
-        }
-    </style>
+  <!-- Load Font Awesome (only needed icons subset via kit or CDN) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <style>
+    body {
+      font-family: 'Jameel Noori Nastaleeq', serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f8f9fa;
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+    }
+
+    main {
+      flex: 1;
+      padding: 16px;
+      overflow-y: auto;
+    }
+
+    .bottom-nav {
+      display: flex;
+      justify-content: space-around;
+      background-color: #ffffff;
+      border-top: 1px solid #ddd;
+      padding: 8px 0;
+      box-shadow: 0 -2px 5px rgba(0,0,0,0.1);
+    }
+
+    .nav-item {
+      text-align: center;
+      flex: 1;
+      color: #555;
+      font-size: 14px;
+      text-decoration: none;
+    }
+
+    .nav-item.active {
+      color: #007bff;
+    }
+
+    .nav-item i {
+      font-size: 20px;
+      display: block;
+      margin-bottom: 4px;
+    }
+  </style>
 </head>
 <body>
 
-    <header>
-        <h1>جمیل نوری نستعلیق</h1>
-        <p>اپنی ویب سائٹ پر خوبصورت اردو تحریر کیلئے یہ فونٹ GitHub سے استعمال کریں</p>
-    </header>
+  <main>
+    <h1>خوش آمدید</h1>
+    <p>یہ ایک نمونہ ایپ ہے جو جمیل نوری نستعلیق فونٹ استعمال کرتی ہے۔</p>
+  </main>
 
-    <section>
-        <h2>طریقہ کار</h2>
-        <p>
-            آپ اس فونٹ کو آسانی سے اپنی ویب سائٹ میں شامل کر سکتے ہیں۔  
-            بس ایک <code>&lt;link&gt;</code> ٹیگ استعمال کریں اور اپنے CSS میں فونٹ کا نام دیں۔
-        </p>
-
-        <h3>۱) فونٹ شامل کرنا (GitHub Raw)</h3>
-        <pre><code>&lt;link rel="stylesheet" href="https://raw.githubusercontent.com/mehwishmadeha-sudo/jameel-noori-nastaleeq/main/style.css"&gt;
-</code></pre>
-
-        <h3>۲) اپنے CSS میں فونٹ لگانا</h3>
-        <pre><code>body {
-    font-family: 'Jameel Noori Nastaleeq', serif;
-}
-</code></pre>
-
-        <p>
-            بس اتنا کرنے کے بعد، آپ کی ویب سائٹ پر اردو متن جمیل نوری نستعلیق میں نظر آئے گا۔
-        </p>
-    </section>
-
-    <footer>
-        © 2025 جمیل نوری نستعلیق - GitHub استعمال گائیڈ
-    </footer>
+  <nav class="bottom-nav">
+    <a href="#" class="nav-item active">
+      <i class="fa-solid fa-house"></i>
+      گھر
+    </a>
+    <a href="#" class="nav-item">
+      <i class="fa-solid fa-copy"></i>
+      مواد
+    </a>
+    <a href="#" class="nav-item">
+      <i class="fa-solid fa-user"></i>
+      پروفائل
+    </a>
+  </nav>
 
 </body>
 </html>
