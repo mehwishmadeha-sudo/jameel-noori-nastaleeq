@@ -7,23 +7,39 @@
 
     <!-- فونٹ شامل کرنا (GitHub Raw) -->
     <link rel="stylesheet" href="style.css">
-    
+
     <style>
+        body {
+            background: #fdfaf6;
+            color: #222;
+            margin: 0;
+            padding: 0;
+            line-height: 2;
+        }
         header {
             text-align: center;
-            margin-bottom: 40px;
+            padding: 40px 20px 20px;
+            background: linear-gradient(to bottom, #fff, #f8f5f0);
+            border-bottom: 2px solid #eee;
         }
         h1 {
-            font-size: 2.5rem;
+            font-size: 2.8rem;
             margin: 0;
+        }
+        p {
+            font-size: 1.2rem;
+            margin: 10px 0 0;
         }
         section {
             max-width: 800px;
-            margin: auto;
+            margin: 40px auto;
             background: white;
-            padding: 20px;
+            padding: 25px;
             border-radius: 12px;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+        }
+        h2, h3 {
+            margin-top: 0;
         }
         pre {
             background: #f3f3f3;
@@ -32,10 +48,21 @@
             overflow-x: auto;
             direction: ltr;
             text-align: left;
+            font-size: 0.9rem;
         }
         code {
             font-family: monospace;
+            background: #eee;
+            padding: 2px 4px;
+            border-radius: 4px;
+        }
+        footer {
+            text-align: center;
             font-size: 0.9rem;
+            padding: 20px;
+            color: #777;
+            border-top: 1px solid #eee;
+            margin-top: 40px;
         }
     </style>
 </head>
@@ -43,18 +70,18 @@
 
     <header>
         <h1>جمیل نوری نستعلیق</h1>
-        <p>اپنی ویب سائٹ پر خوبصورت اردو تحریر کیلئے یہ فونٹ (GitHub کے ذریعے) استعمال کریں</p>
+        <p>اپنی ویب سائٹ پر خوبصورت اردو تحریر کیلئے یہ فونٹ GitHub سے استعمال کریں</p>
     </header>
 
     <section>
         <h2>طریقہ کار</h2>
         <p>
-            آپ اس فونٹ کو بالکل آسانی سے اپنی ویب سائٹ پر شامل کر سکتے ہیں۔ 
-            صرف ایک <code>&lt;link&gt;</code> ٹیگ استعمال کریں اور اپنے CSS میں فونٹ کا نام دیں۔
+            آپ اس فونٹ کو آسانی سے اپنی ویب سائٹ میں شامل کر سکتے ہیں۔  
+            بس ایک <code>&lt;link&gt;</code> ٹیگ استعمال کریں اور اپنے CSS میں فونٹ کا نام دیں۔
         </p>
 
         <h3>۱) فونٹ شامل کرنا (GitHub Raw)</h3>
-        <pre><code>&lt;link rel="stylesheet" href="style.css"&gt;
+        <pre><code>&lt;link rel="stylesheet" href="https://raw.githubusercontent.com/mehwishmadeha-sudo/jameel-noori-nastaleeq/main/style.css"&gt;
 </code></pre>
 
         <h3>۲) اپنے CSS میں فونٹ لگانا</h3>
@@ -67,6 +94,10 @@
             بس اتنا کرنے کے بعد، آپ کی ویب سائٹ پر اردو متن جمیل نوری نستعلیق میں نظر آئے گا۔
         </p>
     </section>
+
+    <footer>
+        © 2025 جمیل نوری نستعلیق - GitHub استعمال گائیڈ
+    </footer>
 
 </body>
 </html>
